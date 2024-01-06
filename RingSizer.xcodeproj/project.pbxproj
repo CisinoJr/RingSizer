@@ -11,6 +11,7 @@
 		4957DF5B2B48926E00E8CDAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957DF5A2B48926E00E8CDAB /* ContentView.swift */; };
 		4957DF5D2B48926F00E8CDAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4957DF5C2B48926F00E8CDAB /* Assets.xcassets */; };
 		4957DF602B48926F00E8CDAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4957DF5F2B48926F00E8CDAB /* Preview Assets.xcassets */; };
+		4957DF672B49092C00E8CDAB /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957DF662B49092C00E8CDAB /* RingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		4957DF5A2B48926E00E8CDAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4957DF5C2B48926F00E8CDAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4957DF5F2B48926F00E8CDAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4957DF662B49092C00E8CDAB /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		4957DF572B48926E00E8CDAB /* RingSizer */ = {
 			isa = PBXGroup;
 			children = (
+				4957DF662B49092C00E8CDAB /* RingView.swift */,
 				4957DF582B48926E00E8CDAB /* RingSizerApp.swift */,
 				4957DF5A2B48926E00E8CDAB /* ContentView.swift */,
 				4957DF5C2B48926F00E8CDAB /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4957DF672B49092C00E8CDAB /* RingView.swift in Sources */,
 				4957DF5B2B48926E00E8CDAB /* ContentView.swift in Sources */,
 				4957DF592B48926E00E8CDAB /* RingSizerApp.swift in Sources */,
 			);
@@ -280,6 +284,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +314,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
